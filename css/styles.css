@@ -136,7 +136,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--subtitle-color);
+  color: #404bbf;
   padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -239,7 +239,7 @@ img {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -253,7 +253,7 @@ img {
   justify-content: center;
   height: 112px;
   background-color: #f4f4fd;
-  border-radius: 112px;
+  border-radius: 4px;
   margin-bottom: 8px;
 }
 .advantages {
@@ -342,9 +342,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon-element :hover,
-.team-icon-element :focus {
+.team-icon-element:hover,
+.team-icon-element:focus {
   background-color: #404bbf;
 }
 .team-icon-soc {
@@ -383,11 +384,11 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.costumers-link :hover {
+.costumers-link:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
-.costumers-link :focus {
+.costumers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -459,6 +460,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
@@ -521,10 +523,12 @@ img {
 .modal-btn:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -611,7 +615,7 @@ img {
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
 }
